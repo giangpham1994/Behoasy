@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+
+            <edu.fpoly.edict.TouchHighlightImageButton                
+                android:id="@+id/thumb_chobull_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chobull1" />
+
+            <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_huoucaoco_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/huoucaoco1" />
+            <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_ocsen_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ocsen1" />
+            <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_ocsen_2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ocsen1" />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+
+            <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_conde_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="1dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/conde1" />
+
+            <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_congau_1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/congau1" />
+            <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_huoucaoco_6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/huoucaoco1" />
+             <edu.fpoly.edict.TouchHighlightImageButton
+                android:id="@+id/thumb_huoucaoco_8"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/huoucaoco1" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="expanded image" />
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.fpoly.edict.AboutUsFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50dp"
+        android:text="BÉ HỌA SĨ là phần mềm được thiết kế rất đặc biệt, dành riêng cho các cháu bé lứa tuổi từ 3-10. Phần mềm được thiết kế nhằm hướng đến các kỹ năng quan trọng của trẻ ở lứa tuổi này, đó là các kỹ năng liên quan đến mỹ thuật: tập vẽ, tô màu. 
+Với mỗi hình tập vẽ, học sinh có thể quan sát cách vẽ của từng nét bút tạo nên hình vẽ này. Các em có thể xem lại cách vẽ của toàn bộ hình, có thể xem lại từng nét vẽ, có thể điều khiển để cho bút dừng lại hoặc vẽ tiếp. Bài học này có thể dành cho giáo viên, cha mẹ học sinh hướng dẫn các cháu học vẽ từ những hình đơn giản đến phức tạp.
+Khi vẽ xong một hình, các em có thể chuyển sang tô màu hình vừa vẽ.
+" />
+
+</FrameLayout>
